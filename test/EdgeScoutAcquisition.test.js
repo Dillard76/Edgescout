@@ -1,5 +1,6 @@
-const { expect } = require("chai");
-const { ethers } = require("hardhat");
+import { expect } from "chai";
+import hre from "hardhat";
+const { ethers } = hre;
 
 describe("EdgeScoutAcquisition Smart Contract Unit Tests", function () {
   let acquisitionContract, mockNFT, owner, oracle, scanNode, seller, unauthorizedUser;
