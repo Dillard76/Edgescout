@@ -1,0 +1,41 @@
+================================================================================
+               EDGESCOUT PRODUCTION OPERATIONS CHEAT SHEET
+================================================================================
+Target System  : EdgeScout Autonomous AI Cognitive Agent
+Network        : Optimism Mainnet (OP Stack, Chain ID: 10)
+Smart Contract : EdgeScoutAcquisition-v2.sol
+Target Asset   : Ry Hawthorne "_404/LostLayer" (#4041)
+Model Chain    : gemini-3.8-flash --> gemini-3.5-flash --> gemini-3-flash-preview
+Last Updated   : October 2026
+
+--------------------------------------------------------------------------------
+1. SUPPORT ROTA & CONTACT MATRIX
+--------------------------------------------------------------------------------
+Primary On-Call Lead   : Alex Chen           24/7 Active Rotation  SCAN Node Alerts & Circuit Breakers
+Secondary Support Lead : Elena Rostova       08:00 - 17:00 PDT     Vision Pricer & Oracle Floor Sync
+Vector Memory Lead     : Marcus Vance        Weekly Sync & Audit   Pinecone 3072-D Namespace Health
+Security & Compliance  : Sarah Jenkins       Daily Log Audit       Option A Regex Redaction Audit
+Escalation Fallback    : Ry Hawthorne        On-Call Backup        System Oversight & Governance
+
+--------------------------------------------------------------------------------
+2. SMART CONTRACT PARAMETERS
+--------------------------------------------------------------------------------
+• Max Bid Ceiling BPS  : 8000 (80.00% / Enforces 20% Discount Against Floor)
+• Smart Money Threshold: $25,000 USD (Aggressive Sensitivity)
+• Active Floor / Target: 3.40 ETH Floor --> 2.72 ETH Max Bid (Token #4041)
+
+--------------------------------------------------------------------------------
+3. EMERGENCY INTERLOCK & CIRCUIT BREAKER PROCEDURES
+--------------------------------------------------------------------------------
+• Relayer Trigger Call : triggerCircuitBreaker(string reason) [onlyScanNode]
+• Active Interlock State: circuitBreakerActive = true
+• Revert Message       : "EdgeScout: Circuit Breaker active due to SCAN Node Risk Alert"
+• Owner Reset Function : resetCircuitBreaker() [onlyOwner]
+
+--------------------------------------------------------------------------------
+4. PINECONE 3072-D VECTOR MEMORY MAP
+--------------------------------------------------------------------------------
+identity        : Risk Profiles & Constraints        ID-RISK-PROFILE-AGGRESSIVE
+strategies      : Past Brainstorms & Lessons         STRAT-OP-CB-202306 (OP/Base Drop)
+market_signals  : Pricing, Netflows & Settlements    SIG-OP-4041-002, ACQ-OP-4041-FINAL
+================================================================================
