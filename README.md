@@ -8,9 +8,10 @@
 ## 🌟 1. What is EdgeScout v2 in Simple English?
 
 Imagine you hired a super-smart digital art collector and risk analyst named **EdgeScout**.
-- **The Target:** An ultra-rare digital artwork called **Ry Hawthorne "_404/LostLayer" (#4041)** on the **Optimism** network.
+- **Network-Wide Scope:** EdgeScout is built to operate across the **entire Optimism OP Stack (Chain ID 10)**. Its smart contract can evaluate, protect, and acquire **any ERC-721 digital asset or collection** on the Optimism network.
+- **The Flagship Mission:** As its primary showcase mission, EdgeScout is configured to target an ultra-rare piece called **Ry Hawthorne "_404/LostLayer" (#4041)**.
 - **The Golden Rule (The 80% Ceiling):** EdgeScout is forbidden by computer code (a "Smart Contract") from paying full price. It **must always secure at least a 20% discount** compared to the current market floor price. If the market floor is 10.0 ETH, EdgeScout will never pay more than 8.0 ETH.
-- **The Emergency Panic Button (Circuit Breaker):** If big cryptocurrency investors ("whales") start dumping more than **$25,000 USD** or 3+ big wallets suddenly send crypto to exchanges, EdgeScout immediately hits the emergency brakes and freezes all buying to protect your funds.
+- **The Emergency Panic Button (Circuit Breaker):** If big cryptocurrency investors ("whales") start dumping more than **$25,000 USD** across Optimism or 3+ big wallets suddenly send crypto to exchanges, EdgeScout immediately hits the emergency brakes and freezes all buying to protect your funds.
 - **The Brain (AI Vision Pricer):** EdgeScout uses Google's latest Gemini AI models in a reliable chain (`gemini-3.8-flash` ➡️ `gemini-3.5-flash` ➡️ `gemini-3-flash-preview`). If the first model is busy, it automatically tries the next one.
 - **The Safe (Zero-Trust Privacy):** Before any data is sent over the internet, a safety filter strips away any secret 12-word recovery passwords or private keys so you never accidentally expose your secrets.
 

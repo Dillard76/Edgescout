@@ -55,7 +55,7 @@ CONTRACT_ADDRESS="0x_DEPLOYED_CONTRACT_ADDRESS"`
       title: "Deploy to Optimism Mainnet",
       whereToClick: "In your computer terminal, paste the deployment command below.",
       whatToCopy: "npx hardhat run scripts/deploy.js --network optimism",
-      plainEnglish: "This sends your smart contract onto the real Optimism network (Chain ID 10) so it is ready to buy Ry Hawthorne #4041.",
+      plainEnglish: "This sends your smart contract onto the real Optimism network (Chain ID 10) so it is ready to execute acquisitions for Ry Hawthorne #4041 or any digital asset on Optimism.",
       command: "npx hardhat run scripts/deploy.js --network optimism"
     }
   ];
